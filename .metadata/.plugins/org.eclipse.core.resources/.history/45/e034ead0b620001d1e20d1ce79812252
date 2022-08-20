@@ -1,0 +1,26 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		//condicional para averiguar se irá pagar imposto de renda
+		
+		double impostoDeRenda = sc.nextDouble();
+		
+		if (impostoDeRenda >= 0.00 && impostoDeRenda <= 2000.00) {
+			System.out.println("isento");			
+		}
+		else if (impostoDeRenda >= 2000.01 && impostoDeRenda <= 3000.00) {
+			System.out.println();
+			
+		}
+		
+		
+	}
+
+}

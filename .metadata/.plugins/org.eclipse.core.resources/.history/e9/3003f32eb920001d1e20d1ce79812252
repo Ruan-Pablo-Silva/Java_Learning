@@ -1,0 +1,30 @@
+package standard;
+
+import java.util.Scanner;
+
+import numbers.Soldier;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Soldier x, y;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		x = new Soldier();
+		y = new Soldier();
+
+		System.out.println("nº dos soldados");
+		System.out.print("soldado 1= ");
+		x.a = sc.nextInt();
+		System.out.print("\n soldado 2= ");
+		x.b = sc.nextInt();
+		
+		int Soma = x.somaSoldado();
+		
+		System.out.println("numero do soldado 1: " + x.a + " --- nº soldado 2: " + x.b );
+		System.out.println("somando o numero dos 2 soldados, temos = " + Soma);
+	}
+
+}

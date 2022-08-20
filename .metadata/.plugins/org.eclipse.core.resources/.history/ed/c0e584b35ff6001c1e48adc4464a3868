@@ -1,0 +1,19 @@
+package treinamento;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		   int y = 1;
+	       do{
+	            System.out.println("Do; nosso nome é " + nome + y );
+	            y++;
+	            
+	        }while(y <= 10);
+       }
+	}
+
+}

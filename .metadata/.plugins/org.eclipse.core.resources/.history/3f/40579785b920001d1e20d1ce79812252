@@ -1,0 +1,31 @@
+package standard;
+
+import java.util.Scanner;
+
+import numbers.Valor;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Valor x;
+		Scanner sc = new Scanner(System.in);
+		
+		
+		x = new Valor();
+
+		System.out.println("nº dos soldados");
+		System.out.print("soldado 1= ");
+		x.a = sc.nextInt();
+		System.out.print("\n soldado 2= ");
+		x.b = sc.nextInt();
+		
+		int Soma = x.somaSoldado();
+		
+		System.out.println("numero do soldado 1: " + x.a + " --- nº soldado 2: " + x.b );
+		System.out.println("somando o numero dos 2 soldados, temos = " + Soma);
+		
+		sc.close();
+	}
+
+}
